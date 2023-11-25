@@ -1,0 +1,24 @@
+{
+  "name": "csgopaka/csgopaka",
+  "description": "PHP SDK for CSGOPAKA.COM API",
+  "minimum-stability": "stable",
+  "type": "library",
+  "license": "MIT",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Patryk Vizauer",
+      "email": "patryk@vizauer.pl"
+    }
+  ],
+  "require": {
+    "php": "^8.0",
+    "ext-json": "*",
+    "guzzlehttp/guzzle": "^7.8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "CSGOPaka\\": "src/"
+    }
+  }
+}
