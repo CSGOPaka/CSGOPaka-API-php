@@ -19,7 +19,7 @@ class Guzzle
     {
         $this->client = new Client([
             'http_errors' => false,
-            'base_uri' => 'http://api.skinsmoney.test/v1/', #https://api.csgopaka.com/v1/
+            'base_uri' => 'https://api.csgopaka.com/v1/',
             'headers' => [
                 'Content-Type' => 'application/json',
                 'Accept' => 'application/json',
